@@ -1,0 +1,15 @@
+global:
+  project_name: 'My Project'
+  machine_name: 'my_project'
+  site_mail: 'admin@mail.com'
+  site_theme: bartik
+  admin_theme: seven
+
+env:
+  development:
+    database:
+      host: 'localhost'
+      port: 3306
+      database: 'my_project'
+      user: ''
+      password: ''

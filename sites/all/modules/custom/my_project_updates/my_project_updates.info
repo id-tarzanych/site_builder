@@ -1,0 +1,4 @@
+name = My Project Updates
+description = Updates container for My project.
+package = "My Project"
+core = 7.x

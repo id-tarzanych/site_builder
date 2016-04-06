@@ -1,0 +1,48 @@
+# Ignore configuration files that may contain sensitive information.
+sites/*/settings*.php
+
+# Ignore paths that contain user-generated content.
+sites/*/files
+sites/*/private
+
+# Ignore local environment config file.
+/cnf/config.yml
+
+# Ignore Drupal core folders and files
+/includes/*
+/misc/*
+/modules/*
+/profiles/*
+/scripts/*
+/sites/example.sites.php
+/sites/README.txt
+/sites/all/libraries/README.txt
+/sites/all/modules/contrib/*
+/sites/all/modules/README.txt
+/sites/all/themes/contrib/*
+/sites/all/libraries/*
+/sites/all/themes/README.txt
+/sites/default/default.settings.php
+/themes/*
+/cron.php
+/robots.txt
+/web.config
+/INSTALL.mysql.txt
+/COPYRIGHT.txt
+/README.txt
+/xmlrpc.php
+/MAINTAINERS.txt
+/INSTALL.sqlite.txt
+/index.php
+/install.php
+/INSTALL.pgsql.txt
+/INSTALL.txt
+/.htaccess
+/UPGRADE.txt
+/LICENSE.txt
+/authorize.php
+/update.php
+/CHANGELOG.txt
+
+# Ignore phpStorm files
+.idea/*

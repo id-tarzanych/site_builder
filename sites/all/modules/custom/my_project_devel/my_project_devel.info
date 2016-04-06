@@ -1,0 +1,6 @@
+name = My Project Development
+description = Consists code and dependencies used only for development of My project (e.g. Fie;d UI, Views UI, Devel).
+package = "My Project"
+core = 7.x
+
+dependencies[] = bm

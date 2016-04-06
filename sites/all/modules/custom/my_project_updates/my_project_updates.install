@@ -1,0 +1,17 @@
+<?php
+
+/**
+ * @file
+ * Install and update hooks for My Project.
+ */
+
+/**
+ * Implements hook_install().
+ */
+function my_project_updates_install() {
+  // Make this module heavier than others.
+  db_update('system')
+    ->fields(array('weight' => 15))
+    ->condition('name', 'my_project_updates')
+    ->execute();
+}

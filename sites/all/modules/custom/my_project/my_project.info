@@ -1,0 +1,7 @@
+name = My Project
+description = Main module of My project.
+package = "My Project"
+core = 7.x
+
+; My Project modules
+dependencies[] = my_project_updates
